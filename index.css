@@ -1,0 +1,183 @@
+/* 
+background and input background #FAFAFA
+btn color #B2DFFB
+OR and border #8E8E8E
+sign up? #95D3FA
+color #666666
+log in with facebook #395185
+*/
+/********** RESETS **********/
+*,
+*,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 62.5%; 
+  /* 1rem = 10px */
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+/********** PRIMARY CONTAINER **********/
+
+.primary-container {
+  width: 350px;
+  height: 420px;
+  background-color: #fff;
+  border: 1px solid rgba(143, 143, 143, .35);
+}
+
+.img-container img {
+  width: 100%;
+  height: 120px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  height: 35%;
+  margin: 0 auto;
+}
+
+form input {
+  border:1px solid rgba(143, 143, 143, .35);
+  background-color: #FAFAFA;
+  height: 2.5rem;
+  padding: .5rem;
+}
+
+.login-btn {
+  background-color: rgba(178, 223, 251, .9);
+  border: unset;
+  height: 2rem;
+  border-radius: 5px;
+  color: #FAFAFA;
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+.login-btn:hover {
+  cursor: pointer;
+}
+
+.or-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or-container hr {
+  width: 32%;
+}
+
+.or-container p {
+  font-size: .75rem;
+  font-weight: 700;
+  color: #8E8E8E;
+}
+
+#one {
+  margin-right: 1.1rem;
+}
+
+#two {
+  margin-left: 1.1rem;
+}
+
+.facebook {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.facebook ion-icon {
+  color:#395185;
+  font-size: 1.2rem;
+}
+
+.facebook p {
+  font-size: .8rem;
+  font-weight: 600;
+  letter-spacing: .5px;
+  margin-left: 7px;
+  color: #395185;
+}
+
+.forgot-pw {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: .8rem;
+  color: #2e56aa;
+  cursor: pointer;
+}
+
+/********** SECONDARY CONTAINER **********/
+
+.secondary-container {
+  margin-top: 1rem;
+  width: 350px;
+  height: 65px;
+  background-color: #fff;
+  border: 1px solid rgba(143, 143, 143, .35);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-container > p {
+  font-size: .9rem;
+  color: #666666;
+} 
+
+.secondary-container span {
+  color: #50b4f1;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+/********** ICON BUTTONS **********/
+.get-app {
+  margin-top: 1rem;
+  font-size: .9rem;
+  color: #666666;
+}
+
+.icon-btns {
+  margin-top: 1rem;
+}
+
+.btn {
+  width: 125px;
+  height: 39px;
+}
+
+.btn[alt="google-play"] {
+  margin-left: .5rem;
+}
+
+/********** MEDIA QUERIES **********/
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 880px) {
+  
+}
+
